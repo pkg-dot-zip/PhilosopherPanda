@@ -4,6 +4,22 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>pkg-dot-zip</Authors>
+    <PackageId>pkg-dot-zip.Util.$(AssemblyName)</PackageId>
+    <Title>PhilosopherPanda</Title>
+    <Description>Extension methods providing more interesting functionality to the standard library.</Description>
+    <RepositoryUrl>https://github.com/pkg-dot-zip/PhilosopherPanda</RepositoryUrl>
+    <PackageTags>Extension,Extensions,Methods,Functions</PackageTags>
+    <Copyright>MIT License</Copyright>
+    <PackageProjectUrl>https://github.com/pkg-dot-zip/PhilosopherPanda</PackageProjectUrl>
+    <PackageIcon>projectLogo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\projectLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
